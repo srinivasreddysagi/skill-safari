@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "League Spartan", sans-serif;
+}
+
+header nav ul li {
+   list-style: none;
+   display: inline;
+   margin: 16px 2px;
+   padding: 16px;
+   float: right;
+}
+
+header nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+   background-color: #e74c3c;
+   padding: 8px;
+   border-radius: 6px;
+}
+
+header nav ul li a:hover {
+   background-color: white;
+   color: #2c3e50;
+   padding: 6px;
+   border: 2px solid #e7473c;
+}
+
+.icon {
+   font-size: 1.5rem;
+   margin: 16px;
+   padding: 12px;
+   color: #e74c3c;
+   font-size: 26px;
+   font-weight: 900;
+   letter-spacing: 4px;
+   float: left;
+}
+
+.topbar {
+   background-color: #2c3e50;
+   height: 80px;
+   width: 100%;
+}
+
+.home {
+   background: rgb(231, 76, 60);
+   background: linear-gradient(
+      0deg,
+      rgba(231, 76, 60, 0.3) 0%,
+      rgba(236, 240, 241, 0.3) 50%,
+      rgba(231, 76, 60, 0.3) 100%
+   );
+   height: calc(100vh - 80px);
+   width: 100%;
+   padding: 20px;
+}
+
+.profile {
+   margin: auto;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+
+main span h2:first-of-type {
+   text-align: center;
+   font-size: 50px;
+   font-weight: 900;
+   padding-top: 20px;
+   letter-spacing: 2px;
+}
+
+main span h2:last-of-type {
+   text-align: center;
+   font-size: 40px;
+   font-weight: 400;
+   padding: 20px;
+}
+
+.propic {
+   border: 2px solid #2c3e50;
+   border-radius: 50%;
+   margin: auto;
+}
+
+.foot {
+   background-color: #2c3e50;
+   height: 80px;
+}
+
+.copyrights {
+   font-size: 16px;
+   color: white;
+   text-align: center;
+   padding: 28px;
+}
